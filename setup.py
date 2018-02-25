@@ -4,8 +4,8 @@ from setuptools import setup
 
 setup(
 	name = "wciwt",
-	version = "0.0.0",
-	description = "wciwt is a command line tool which makes it easier to find your favorite TV shows and movies in India. It hopes to support Netflix, Prime Video and Hotstar in the near future.",
+	version = "0.0.1",
+	description = "wciwt is a command line tool which makes it easier to find your favorite TV shows and movies in India. It currently supports Netflix, Prime Video and Hotstar.",
 	author = "Ajay",
 	author_email = "ajaymkatte95@gmail.com",
 	packages = ["wciwt"],
