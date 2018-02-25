@@ -25,7 +25,7 @@ def wciwt():
 	else:
 		for service in json['results']:
 			if len(json['results'][service]) != 0:
-				print ("\n{}:\n{}\n".format(service.upper(), '\n'.join(str(x.encode('utf-8')) for x in json['results'][service])))
+				print ("\n{}:\n{}\n".format(service.upper(), '\n'.join(str((x.encode('utf-8')).decode()) for x in json['results'][service])))
 
 if __name__ == "__main__":
 	wciwt()
