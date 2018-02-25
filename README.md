@@ -4,7 +4,7 @@ wciwt is a command line tool which makes it easier to find your favorite TV show
 
 ### Installation
 
-pip install wciwt
+```$ pip install wciwt```
 
 ### API
 
